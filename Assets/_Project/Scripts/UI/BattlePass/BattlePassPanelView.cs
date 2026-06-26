@@ -12,7 +12,6 @@ namespace Project.UI.BattlePass
     {
         private const int VisibleLevelCount = 10;
 
-        private readonly Button _closeButton;
         private readonly ScrollView _scrollView;
         private readonly VisualElement _levelsRow;
         private readonly VisualTreeAsset _levelItemTemplate;
@@ -39,7 +38,6 @@ namespace Project.UI.BattlePass
             Root = config.Uxml.Instantiate();
             Root.AddToClassList("battle-pass-panel-root");
 
-            _closeButton = Root.Q<Button>("close-button");
             _scrollView = Root.Q<ScrollView>("levels-scroll");
             _levelsRow = Root.Q<VisualElement>("levels-row");
 
@@ -52,8 +50,7 @@ namespace Project.UI.BattlePass
                 _scrollView.RegisterCallback(_geometryChangedCallback);
             }
 
-            if (_closeButton != null)
-                _closeButton.clicked += OnCloseClicked;
+            PanelCloseButtonBinder.Bind(Root, OnCloseClicked);
 
             var dataProvider = new ScriptableObjectBattlePassDataProvider(config.BattlePassConfig);
             var stateProvider = new ScriptableObjectUserBattlePassStateProvider(config.UserStateConfig);

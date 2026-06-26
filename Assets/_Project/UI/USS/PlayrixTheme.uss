@@ -1,0 +1,96 @@
+/* Shared Playrix-style panel chrome — solid colors only */
+
+.playrix-panel-root {
+    width: 100%;
+}
+
+.playrix-panel {
+    background-color: rgb(247, 232, 208);
+    border-radius: 28px;
+    padding: 0;
+    border-width: 3px;
+    border-color: rgb(196, 152, 104);
+    overflow: hidden;
+    position: relative;
+}
+
+.playrix-panel__ribbon {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(96, 168, 48);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 56px;
+    padding-right: 56px;
+    border-bottom-width: 3px;
+    border-bottom-color: rgb(52, 108, 22);
+}
+
+.playrix-panel__title {
+    font-size: 30px;
+    color: rgb(255, 228, 90);
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    text-shadow: 0 2px 0 rgb(140, 68, 12);
+    letter-spacing: 0.5px;
+}
+
+.playrix-panel__body {
+    padding: 20px;
+}
+
+.playrix-panel__header {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    width: 48px;
+    height: 48px;
+    picking-mode: Position;
+}
+
+.playrix-panel__close {
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    background-color: rgb(255, 75, 65);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    -unity-font-style: bold;
+    border-width: 0;
+    border-bottom-width: 4px;
+    border-bottom-color: rgb(160, 30, 24);
+    -unity-text-align: middle-center;
+    text-shadow: 0 1px 0 rgb(120, 20, 16);
+    transition-duration: 0.12s;
+}
+
+.playrix-panel__close:hover {
+    background-color: rgb(255, 95, 85);
+    scale: 1.08 1.08;
+}
+
+.playrix-panel__close:active {
+    background-color: rgb(220, 50, 40);
+    border-bottom-width: 2px;
+    scale: 0.95 0.95;
+}
+
+.playrix-content-card {
+    background-color: rgb(255, 250, 238);
+    border-radius: 18px;
+    border-width: 2px;
+    border-color: rgb(220, 188, 140);
+    padding: 20px;
+}
+
+.playrix-content-text {
+    font-size: 18px;
+    color: rgb(110, 72, 38);
+    -unity-font-style: bold;
+    white-space: normal;
+    -unity-text-align: middle-center;
+}

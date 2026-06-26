@@ -2,7 +2,7 @@
     <Style src="../USS/MainScreen.uss" />
     <ui:VisualElement name="main-root" class="main-screen">
         <ui:VisualElement name="content-area" class="content-area">
-            <ui:Label text="Main Screen" class="content-area__title" />
+            <ui:Label text="Garden" class="content-area__title" />
         </ui:VisualElement>
         <ui:VisualElement name="bottom-bar" class="bottom-bar">
             <ui:VisualElement name="left-button-slot" class="button-slot button-slot--left" />

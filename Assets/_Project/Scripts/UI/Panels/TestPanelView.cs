@@ -7,7 +7,6 @@ namespace Project.UI.Panels
 {
     public sealed class TestPanelView : IPanelView
     {
-        private readonly Button _closeButton;
         private readonly Label _titleLabel;
         private readonly Label _contentLabel;
 
@@ -21,10 +20,7 @@ namespace Project.UI.Panels
 
             _titleLabel = Root.Q<Label>("title-label");
             _contentLabel = Root.Q<Label>("content-label");
-            _closeButton = Root.Q<Button>("close-button");
-
-            if (_closeButton != null)
-                _closeButton.clicked += OnCloseClicked;
+            PanelCloseButtonBinder.Bind(Root, OnCloseClicked);
 
             Bind(new TestPanelViewModel(config.Title, $"Content for panel: {config.Id}"));
         }

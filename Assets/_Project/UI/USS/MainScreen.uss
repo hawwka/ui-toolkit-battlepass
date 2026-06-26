@@ -1,12 +1,14 @@
+/* Main screen — solid garden-green background */
+
 .main-screen {
     flex-grow: 1;
     width: 100%;
     height: 100%;
-    background-color: rgb(18, 22, 33);
-    padding-top: 48px;
-    padding-bottom: 32px;
-    padding-left: 24px;
-    padding-right: 24px;
+    background-color: rgb(134, 198, 108);
+    padding-top: 56px;
+    padding-bottom: 40px;
+    padding-left: 28px;
+    padding-right: 28px;
 }
 
 .content-area {
@@ -16,21 +18,28 @@
 }
 
 .content-area__title {
-    font-size: 32px;
-    color: rgb(240, 244, 255);
+    font-size: 52px;
+    color: rgb(255, 220, 80);
     -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    text-shadow: 0 3px 0 rgb(160, 72, 20);
+    letter-spacing: 1px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .bottom-bar {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    min-height: 96px;
+    min-height: 104px;
 }
 
 .button-slot {
-    min-width: 120px;
-    min-height: 56px;
+    min-width: 148px;
+    min-height: 68px;
 }
 
 .button-slot--left {
@@ -42,24 +51,37 @@
 }
 
 .main-button {
-    min-width: 120px;
-    min-height: 56px;
-    border-radius: 16px;
-    background-color: rgb(64, 118, 255);
+    min-width: 148px;
+    min-height: 64px;
+    border-radius: 32px;
+    background-color: rgb(118, 185, 0);
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 22px;
     -unity-font-style: bold;
     border-width: 0;
-    padding-left: 20px;
-    padding-right: 20px;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(77, 122, 0);
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    -unity-text-align: middle-center;
+    text-shadow: 0 2px 0 rgb(50, 90, 0);
+    transition-duration: 0.12s;
 }
 
 .main-button:hover {
-    background-color: rgb(84, 138, 255);
+    background-color: rgb(138, 205, 20);
+    border-bottom-color: rgb(87, 132, 10);
+    scale: 1.04 1.04;
 }
 
 .main-button:active {
-    background-color: rgb(44, 98, 235);
+    background-color: rgb(98, 165, 0);
+    border-bottom-width: 2px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    scale: 0.98 0.98;
 }
 
 .modal-overlay-root {
@@ -81,7 +103,7 @@
 }
 
 .modal-backdrop.modal-blur--active {
-    background-color: rgba(0, 0, 0, 0.45);
+    background-color: rgba(30, 50, 20, 0.55);
 }
 
 .modal-blur {
@@ -94,7 +116,7 @@
 }
 
 .modal-blur.modal-blur--active {
-    background-color: rgba(120, 140, 180, 0.08);
+    background-color: rgba(255, 245, 200, 0.06);
 }
 
 .panel-container {
@@ -105,5 +127,5 @@
     bottom: 0;
     justify-content: center;
     align-items: center;
-    padding: 32px;
+    padding: 16px;
 }

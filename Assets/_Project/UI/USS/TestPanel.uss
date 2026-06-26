@@ -1,45 +1,7 @@
 .test-panel-root {
-    width: 100%;
-    max-width: 480px;
+    max-width: 520px;
 }
 
-.test-panel {
-    background-color: rgb(28, 34, 48);
-    border-radius: 20px;
-    padding: 24px;
-    border-width: 1px;
-    border-color: rgba(255, 255, 255, 0.08);
-}
-
-.test-panel__header {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 16px;
-}
-
-.test-panel__title {
-    font-size: 24px;
-    color: rgb(240, 244, 255);
-    -unity-font-style: bold;
-}
-
-.test-panel__close {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.08);
-    color: rgb(240, 244, 255);
-    font-size: 18px;
-    border-width: 0;
-}
-
-.test-panel__close:hover {
-    background-color: rgba(255, 255, 255, 0.16);
-}
-
-.test-panel__content {
-    font-size: 16px;
-    color: rgb(180, 190, 210);
-    white-space: normal;
+.test-panel__body {
+    padding-top: 16px;
 }

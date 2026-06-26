@@ -1,12 +1,19 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="../USS/PlayrixTheme.uss" />
     <Style src="../USS/BattlePassPanel.uss" />
-    <ui:VisualElement class="battle-pass-panel">
-        <ui:VisualElement class="battle-pass-panel__header">
-            <ui:Label class="battle-pass-panel__title" text="Battle Pass" />
-            <ui:Button name="close-button" class="battle-pass-panel__close" text="✕" />
+    <ui:VisualElement class="playrix-panel-root battle-pass-panel-root">
+        <ui:VisualElement class="playrix-panel battle-pass-panel">
+            <ui:VisualElement class="playrix-panel__ribbon">
+                <ui:Label class="playrix-panel__title" text="Battle Pass" />
+            </ui:VisualElement>
+            <ui:VisualElement class="playrix-panel__body battle-pass-panel__body">
+                <ui:ScrollView name="levels-scroll" mode="Horizontal" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" class="battle-pass-scroll">
+                    <ui:VisualElement name="levels-row" class="battle-pass-scroll__row" />
+                </ui:ScrollView>
+            </ui:VisualElement>
+            <ui:VisualElement class="playrix-panel__header">
+                <ui:Button name="close-button" class="playrix-panel__close" text="✕" />
+            </ui:VisualElement>
         </ui:VisualElement>
-        <ui:ScrollView name="levels-scroll" mode="Horizontal" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" class="battle-pass-scroll">
-            <ui:VisualElement name="levels-row" class="battle-pass-scroll__row" />
-        </ui:ScrollView>
     </ui:VisualElement>
 </ui:UXML>

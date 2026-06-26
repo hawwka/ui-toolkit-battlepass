@@ -1,10 +1,19 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="../USS/PlayrixTheme.uss" />
     <Style src="../USS/TestPanel.uss" />
-    <ui:VisualElement class="test-panel">
-        <ui:VisualElement class="test-panel__header">
-            <ui:Label name="title-label" class="test-panel__title" text="Panel" />
-            <ui:Button name="close-button" class="test-panel__close" text="✕" />
+    <ui:VisualElement class="playrix-panel-root test-panel-root">
+        <ui:VisualElement class="playrix-panel">
+            <ui:VisualElement class="playrix-panel__ribbon">
+                <ui:Label name="title-label" class="playrix-panel__title" text="Panel" />
+            </ui:VisualElement>
+            <ui:VisualElement class="playrix-panel__body test-panel__body">
+                <ui:VisualElement class="playrix-content-card">
+                    <ui:Label name="content-label" class="playrix-content-text" text="Test content" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="playrix-panel__header">
+                <ui:Button name="close-button" class="playrix-panel__close" text="✕" />
+            </ui:VisualElement>
         </ui:VisualElement>
-        <ui:Label name="content-label" class="test-panel__content" text="Test content" />
     </ui:VisualElement>
 </ui:UXML>

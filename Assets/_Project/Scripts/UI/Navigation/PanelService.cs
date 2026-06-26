@@ -7,6 +7,7 @@ namespace Project.UI.Navigation
         private readonly ModalOverlayView _overlay;
         private readonly IBackgroundBlurService _blurService;
         private IPanelView _currentPanel;
+        private PanelOpenScaleAnimation _openAnimation;
 
         public PanelService(ModalOverlayView overlay, IBackgroundBlurService blurService)
         {
@@ -27,6 +28,7 @@ namespace Project.UI.Navigation
             _overlay.SetPanel(panel.Root);
             _blurService.Enable();
             _overlay.Show();
+            _openAnimation = PanelOpenScaleAnimation.Play(panel.Root);
             panel.OnOpened();
         }
 
@@ -34,6 +36,9 @@ namespace Project.UI.Navigation
         {
             if (_currentPanel == null)
                 return;
+
+            _openAnimation?.Dispose();
+            _openAnimation = null;
 
             _currentPanel.CloseRequested -= OnPanelCloseRequested;
             _currentPanel.OnClosed();
