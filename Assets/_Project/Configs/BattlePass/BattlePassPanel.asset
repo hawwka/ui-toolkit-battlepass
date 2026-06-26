@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcb189d78d1355d4499b5a057789eb96, type: 3}
+  m_Name: BattlePassPanel
+  m_EditorClassIdentifier: Project.Runtime::Project.UI.BattlePass.Config.BattlePassPanelConfig
+  <Id>k__BackingField: battle_pass
+  <Title>k__BackingField: Battle Pass
+  <Uxml>k__BackingField: {fileID: 9197481963319205126, guid: f5aa6690305f6364b9280fdf71722150, type: 3}
+  <BattlePassConfig>k__BackingField: {fileID: 11400000, guid: 4071683066d675c41801c2687a142a08, type: 2}
+  <UserStateConfig>k__BackingField: {fileID: 11400000, guid: 14f1df8a02591f84199270a0451e803c, type: 2}
+  <LevelItemTemplate>k__BackingField: {fileID: 9197481963319205126, guid: 668eae4be5a0f4147a94aa039dded67e, type: 3}
+  <IconEntries>k__BackingField: []

@@ -1,0 +1,290 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 967abad558fa77b439bb623ba84d9529, type: 3}
+  m_Name: BattlePassData
+  m_EditorClassIdentifier: Project.Runtime::Project.UI.BattlePass.Config.BattlePassConfig
+  <Levels>k__BackingField:
+  - <Level>k__BackingField: 1
+    <FreeReward>k__BackingField:
+      <Id>k__BackingField: free_coins_1
+      <Title>k__BackingField: Coins
+      <IconAssetKey>k__BackingField: icon_coins
+      <Amount>k__BackingField: 50
+    <PremiumReward>k__BackingField:
+      <Id>k__BackingField: premium_gems_1
+      <Title>k__BackingField: Gems
+      <IconAssetKey>k__BackingField: icon_gems
+      <Amount>k__BackingField: 1
+  - <Level>k__BackingField: 2
+    <FreeReward>k__BackingField:
+      <Id>k__BackingField: free_coins_2
+      <Title>k__BackingField: Coins
+      <IconAssetKey>k__BackingField: icon_coins
+      <Amount>k__BackingField: 100
+    <PremiumReward>k__BackingField:
+      <Id>k__BackingField: premium_gems_2
+      <Title>k__BackingField: Gems
+      <IconAssetKey>k__BackingField: icon_gems
+      <Amount>k__BackingField: 2
+  - <Level>k__BackingField: 3
+    <FreeReward>k__BackingField:
+      <Id>k__BackingField: free_coins_3
+      <Title>k__BackingField: Coins
+      <IconAssetKey>k__BackingField: icon_coins
+      <Amount>k__BackingField: 150
+    <PremiumReward>k__BackingField:
+      <Id>k__BackingField: premium_gems_3
+      <Title>k__BackingField: Gems
+      <IconAssetKey>k__BackingField: icon_gems
+      <Amount>k__BackingField: 3
+  - <Level>k__BackingField: 4
+    <FreeReward>k__BackingField:
+      <Id>k__BackingField: free_coins_4
+      <Title>k__BackingField: Coins
+      <IconAssetKey>k__BackingField: icon_coins
+      <Amount>k__BackingField: 200
+    <PremiumReward>k__BackingField:
+      <Id>k__BackingField: premium_gems_4
+      <Title>k__BackingField: Gems
+      <IconAssetKey>k__BackingField: icon_gems
+      <Amount>k__BackingField: 4
+  - <Level>k__BackingField: 5
+    <FreeReward>k__BackingField:
+      <Id>k__BackingField: free_coins_5
+      <Title>k__BackingField: Coins
+      <IconAssetKey>k__BackingField: icon_coins
+      <Amount>k__BackingField: 250
+    <PremiumReward>k__BackingField:
+      <Id>k__BackingField: premium_gems_5
+      <Title>k__BackingField: Gems
+      <IconAssetKey>k__BackingField: icon_gems
+      <Amount>k__BackingField: 5
+  - <Level>k__BackingField: 6
+    <FreeReward>k__BackingField:
+      <Id>k__BackingField: free_coins_6
+      <Title>k__BackingField: Coins
+      <IconAssetKey>k__BackingField: icon_coins
+      <Amount>k__BackingField: 300
+    <PremiumReward>k__BackingField:
+      <Id>k__BackingField: premium_gems_6
+      <Title>k__BackingField: Gems
+      <IconAssetKey>k__BackingField: icon_gems
+      <Amount>k__BackingField: 6
+  - <Level>k__BackingField: 7
+    <FreeReward>k__BackingField:
+      <Id>k__BackingField: free_coins_7
+      <Title>k__BackingField: Coins
+      <IconAssetKey>k__BackingField: icon_coins
+      <Amount>k__BackingField: 350
+    <PremiumReward>k__BackingField:
+      <Id>k__BackingField: premium_gems_7
+      <Title>k__BackingField: Gems
+      <IconAssetKey>k__BackingField: icon_gems
+      <Amount>k__BackingField: 7
+  - <Level>k__BackingField: 8
+    <FreeReward>k__BackingField:
+      <Id>k__BackingField: free_coins_8
+      <Title>k__BackingField: Coins
+      <IconAssetKey>k__BackingField: icon_coins
+      <Amount>k__BackingField: 400
+    <PremiumReward>k__BackingField:
+      <Id>k__BackingField: premium_gems_8
+      <Title>k__BackingField: Gems
+      <IconAssetKey>k__BackingField: icon_gems
+      <Amount>k__BackingField: 8
+  - <Level>k__BackingField: 9
+    <FreeReward>k__BackingField:
+      <Id>k__BackingField: free_coins_9
+      <Title>k__BackingField: Coins
+      <IconAssetKey>k__BackingField: icon_coins
+      <Amount>k__BackingField: 450
+    <PremiumReward>k__BackingField:
+      <Id>k__BackingField: premium_gems_9
+      <Title>k__BackingField: Gems
+      <IconAssetKey>k__BackingField: icon_gems
+      <Amount>k__BackingField: 9
+  - <Level>k__BackingField: 10
+    <FreeReward>k__BackingField:
+      <Id>k__BackingField: free_coins_10
+      <Title>k__BackingField: Coins
+      <IconAssetKey>k__BackingField: icon_coins
+      <Amount>k__BackingField: 500
+    <PremiumReward>k__BackingField:
+      <Id>k__BackingField: premium_gems_10
+      <Title>k__BackingField: Gems
+      <IconAssetKey>k__BackingField: icon_gems
+      <Amount>k__BackingField: 10
+  - <Level>k__BackingField: 11
+    <FreeReward>k__BackingField:
+      <Id>k__BackingField: free_coins_11
+      <Title>k__BackingField: Coins
+      <IconAssetKey>k__BackingField: icon_coins
+      <Amount>k__BackingField: 550
+    <PremiumReward>k__BackingField:
+      <Id>k__BackingField: premium_gems_11
+      <Title>k__BackingField: Gems
+      <IconAssetKey>k__BackingField: icon_gems
+      <Amount>k__BackingField: 11
+  - <Level>k__BackingField: 12
+    <FreeReward>k__BackingField:
+      <Id>k__BackingField: free_coins_12
+      <Title>k__BackingField: Coins
+      <IconAssetKey>k__BackingField: icon_coins
+      <Amount>k__BackingField: 600
+    <PremiumReward>k__BackingField:
+      <Id>k__BackingField: premium_gems_12
+      <Title>k__BackingField: Gems
+      <IconAssetKey>k__BackingField: icon_gems
+      <Amount>k__BackingField: 12
+  - <Level>k__BackingField: 13
+    <FreeReward>k__BackingField:
+      <Id>k__BackingField: free_coins_13
+      <Title>k__BackingField: Coins
+      <IconAssetKey>k__BackingField: icon_coins
+      <Amount>k__BackingField: 650
+    <PremiumReward>k__BackingField:
+      <Id>k__BackingField: premium_gems_13
+      <Title>k__BackingField: Gems
+      <IconAssetKey>k__BackingField: icon_gems
+      <Amount>k__BackingField: 13
+  - <Level>k__BackingField: 14
+    <FreeReward>k__BackingField:
+      <Id>k__BackingField: free_coins_14
+      <Title>k__BackingField: Coins
+      <IconAssetKey>k__BackingField: icon_coins
+      <Amount>k__BackingField: 700
+    <PremiumReward>k__BackingField:
+      <Id>k__BackingField: premium_gems_14
+      <Title>k__BackingField: Gems
+      <IconAssetKey>k__BackingField: icon_gems
+      <Amount>k__BackingField: 14
+  - <Level>k__BackingField: 15
+    <FreeReward>k__BackingField:
+      <Id>k__BackingField: free_coins_15
+      <Title>k__BackingField: Coins
+      <IconAssetKey>k__BackingField: icon_coins
+      <Amount>k__BackingField: 750
+    <PremiumReward>k__BackingField:
+      <Id>k__BackingField: premium_gems_15
+      <Title>k__BackingField: Gems
+      <IconAssetKey>k__BackingField: icon_gems
+      <Amount>k__BackingField: 15
+  - <Level>k__BackingField: 16
+    <FreeReward>k__BackingField:
+      <Id>k__BackingField: free_coins_16
+      <Title>k__BackingField: Coins
+      <IconAssetKey>k__BackingField: icon_coins
+      <Amount>k__BackingField: 800
+    <PremiumReward>k__BackingField:
+      <Id>k__BackingField: premium_gems_16
+      <Title>k__BackingField: Gems
+      <IconAssetKey>k__BackingField: icon_gems
+      <Amount>k__BackingField: 16
+  - <Level>k__BackingField: 17
+    <FreeReward>k__BackingField:
+      <Id>k__BackingField: free_coins_17
+      <Title>k__BackingField: Coins
+      <IconAssetKey>k__BackingField: icon_coins
+      <Amount>k__BackingField: 850
+    <PremiumReward>k__BackingField:
+      <Id>k__BackingField: premium_gems_17
+      <Title>k__BackingField: Gems
+      <IconAssetKey>k__BackingField: icon_gems
+      <Amount>k__BackingField: 17
+  - <Level>k__BackingField: 18
+    <FreeReward>k__BackingField:
+      <Id>k__BackingField: free_coins_18
+      <Title>k__BackingField: Coins
+      <IconAssetKey>k__BackingField: icon_coins
+      <Amount>k__BackingField: 900
+    <PremiumReward>k__BackingField:
+      <Id>k__BackingField: premium_gems_18
+      <Title>k__BackingField: Gems
+      <IconAssetKey>k__BackingField: icon_gems
+      <Amount>k__BackingField: 18
+  - <Level>k__BackingField: 19
+    <FreeReward>k__BackingField:
+      <Id>k__BackingField: free_coins_19
+      <Title>k__BackingField: Coins
+      <IconAssetKey>k__BackingField: icon_coins
+      <Amount>k__BackingField: 950
+    <PremiumReward>k__BackingField:
+      <Id>k__BackingField: premium_gems_19
+      <Title>k__BackingField: Gems
+      <IconAssetKey>k__BackingField: icon_gems
+      <Amount>k__BackingField: 19
+  - <Level>k__BackingField: 20
+    <FreeReward>k__BackingField:
+      <Id>k__BackingField: free_coins_20
+      <Title>k__BackingField: Coins
+      <IconAssetKey>k__BackingField: icon_coins
+      <Amount>k__BackingField: 1000
+    <PremiumReward>k__BackingField:
+      <Id>k__BackingField: premium_gems_20
+      <Title>k__BackingField: Gems
+      <IconAssetKey>k__BackingField: icon_gems
+      <Amount>k__BackingField: 20
+  - <Level>k__BackingField: 21
+    <FreeReward>k__BackingField:
+      <Id>k__BackingField: free_coins_21
+      <Title>k__BackingField: Coins
+      <IconAssetKey>k__BackingField: icon_coins
+      <Amount>k__BackingField: 1050
+    <PremiumReward>k__BackingField:
+      <Id>k__BackingField: premium_gems_21
+      <Title>k__BackingField: Gems
+      <IconAssetKey>k__BackingField: icon_gems
+      <Amount>k__BackingField: 21
+  - <Level>k__BackingField: 22
+    <FreeReward>k__BackingField:
+      <Id>k__BackingField: free_coins_22
+      <Title>k__BackingField: Coins
+      <IconAssetKey>k__BackingField: icon_coins
+      <Amount>k__BackingField: 1100
+    <PremiumReward>k__BackingField:
+      <Id>k__BackingField: premium_gems_22
+      <Title>k__BackingField: Gems
+      <IconAssetKey>k__BackingField: icon_gems
+      <Amount>k__BackingField: 22
+  - <Level>k__BackingField: 23
+    <FreeReward>k__BackingField:
+      <Id>k__BackingField: free_coins_23
+      <Title>k__BackingField: Coins
+      <IconAssetKey>k__BackingField: icon_coins
+      <Amount>k__BackingField: 1150
+    <PremiumReward>k__BackingField:
+      <Id>k__BackingField: premium_gems_23
+      <Title>k__BackingField: Gems
+      <IconAssetKey>k__BackingField: icon_gems
+      <Amount>k__BackingField: 23
+  - <Level>k__BackingField: 24
+    <FreeReward>k__BackingField:
+      <Id>k__BackingField: free_coins_24
+      <Title>k__BackingField: Coins
+      <IconAssetKey>k__BackingField: icon_coins
+      <Amount>k__BackingField: 1200
+    <PremiumReward>k__BackingField:
+      <Id>k__BackingField: premium_gems_24
+      <Title>k__BackingField: Gems
+      <IconAssetKey>k__BackingField: icon_gems
+      <Amount>k__BackingField: 24
+  - <Level>k__BackingField: 25
+    <FreeReward>k__BackingField:
+      <Id>k__BackingField: free_coins_25
+      <Title>k__BackingField: Coins
+      <IconAssetKey>k__BackingField: icon_coins
+      <Amount>k__BackingField: 1250
+    <PremiumReward>k__BackingField:
+      <Id>k__BackingField: premium_gems_25
+      <Title>k__BackingField: Gems
+      <IconAssetKey>k__BackingField: icon_gems
+      <Amount>k__BackingField: 25

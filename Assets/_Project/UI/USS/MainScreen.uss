@@ -1,0 +1,109 @@
+.main-screen {
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(18, 22, 33);
+    padding-top: 48px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.content-area {
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-area__title {
+    font-size: 32px;
+    color: rgb(240, 244, 255);
+    -unity-font-style: bold;
+}
+
+.bottom-bar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    min-height: 96px;
+}
+
+.button-slot {
+    min-width: 120px;
+    min-height: 56px;
+}
+
+.button-slot--left {
+    align-items: flex-start;
+}
+
+.button-slot--right {
+    align-items: flex-end;
+}
+
+.main-button {
+    min-width: 120px;
+    min-height: 56px;
+    border-radius: 16px;
+    background-color: rgb(64, 118, 255);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    -unity-font-style: bold;
+    border-width: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main-button:hover {
+    background-color: rgb(84, 138, 255);
+}
+
+.main-button:active {
+    background-color: rgb(44, 98, 235);
+}
+
+.modal-overlay-root {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: none;
+}
+
+.modal-backdrop {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.modal-backdrop.modal-blur--active {
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.modal-blur {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.modal-blur.modal-blur--active {
+    background-color: rgba(120, 140, 180, 0.08);
+}
+
+.panel-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}

@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="../USS/TestPanel.uss" />
+    <ui:VisualElement class="test-panel">
+        <ui:VisualElement class="test-panel__header">
+            <ui:Label name="title-label" class="test-panel__title" text="Panel" />
+            <ui:Button name="close-button" class="test-panel__close" text="✕" />
+        </ui:VisualElement>
+        <ui:Label name="content-label" class="test-panel__content" text="Test content" />
+    </ui:VisualElement>
+</ui:UXML>

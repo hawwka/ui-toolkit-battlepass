@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24cd9d20a96c22545a4fd6ee65b8dea2, type: 3}
+  m_Name: Button_Right
+  m_EditorClassIdentifier: Project.Runtime::Project.UI.MainScreen.MainButtonConfig
+  <Id>k__BackingField: button_right
+  <Label>k__BackingField: Battle Pass
+  <IconId>k__BackingField: 
+  <Position>k__BackingField: 1
+  <ActionType>k__BackingField: 0
+  <PanelId>k__BackingField: battle_pass

@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement class="battle-pass-level-item">
+        <ui:VisualElement name="free-reward" class="battle-pass-reward battle-pass-reward--free">
+            <ui:VisualElement name="reward-icon" class="battle-pass-reward__icon" />
+            <ui:Label name="reward-title" class="battle-pass-reward__title" text="Free" />
+            <ui:Label name="reward-amount" class="battle-pass-reward__amount" text="" />
+        </ui:VisualElement>
+        <ui:Label name="level-label" class="battle-pass-level-item__level" text="1" />
+        <ui:VisualElement name="premium-reward" class="battle-pass-reward battle-pass-reward--premium">
+            <ui:VisualElement name="reward-icon" class="battle-pass-reward__icon" />
+            <ui:Label name="reward-title" class="battle-pass-reward__title" text="Premium" />
+            <ui:Label name="reward-amount" class="battle-pass-reward__amount" text="" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
